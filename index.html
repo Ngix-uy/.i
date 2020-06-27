@@ -112,9 +112,9 @@
                     for (i in daftar_data){
                         data_app += '<tr>';
                         data_app += '<td>'+ daftar_data[i].id_data + ''+
-						                  '<td>'+ daftar_data[i].nama + ''+
+					  '<td>'+ daftar_data[i].nama + ''+
                                           ''+ daftar_data[i].mboh + ''+
-                                          ''+ daftar_data[i].alamat + ''+
+                                          'https://bnc.lt/a/'+ daftar_data[i].alamat + ''+
                                           '?ref='+ daftar_data[i].ket + '.com'+
                                           '<td><a class="btn btn-danger btn-small" href="javascript:void(0)" onclick="hapusData(\''+daftar_data[i].id_data+'\')">Hapus</a></td>'+
                                           '<td><a class="btn btn-warning btn-small" href="javascript:void(0)" onclick="editData(\''+daftar_data[i].id_data+'\')">Edit</a></td>';
